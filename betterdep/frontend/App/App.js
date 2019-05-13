@@ -52,10 +52,12 @@ class AppContainer extends Component {
     if (forums) {
       return (
         <div>
-          <Helmet><title>ReForum</title></Helmet>
+	  <head>
+            <title>Betterdep!</title>
+	  </head>
 
-          <div className={styles.gitForkTag}>
-            <a className={styles.gitLink} href="https://github.com/shoumma/ReForum" target="_blank">Fork on Github</a>
+          <div className={styles.mayfairSite}>
+            <a className={styles.mayfairLink} href="http://mayfairproject.com" target="_blank">View the main Mayfair Site!</a>
           </div>
 
           <Header />

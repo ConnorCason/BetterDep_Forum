@@ -57,7 +57,7 @@ class AppContainer extends Component {
 	  </head>
 
           <div className={styles.mayfairSite}>
-            <a className={styles.mayfairLink} href="https://mayfairproject.com" target="_blank">View the main Mayfair Site!</a>
+            <a className={styles.mayfairLink} href="http://mayfairproject.com" target="_blank">View the main Mayfair Site!</a>
           </div>
 
           <Header />
